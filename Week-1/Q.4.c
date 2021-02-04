@@ -6,12 +6,12 @@
 int main()
 {
     int phy, chem, bio, maths, comp;
-    float a, Total;
+    float a, total;
     printf("Enter your marks :-\n\n");
     scanf("%d %d %d %d %d", &phy, &chem, &bio, &maths, &comp);
 
-    Total = phy + chem + bio + maths + comp;
-    a = (Total/500)/*100;
+    total = phy + chem + bio + maths + comp;
+    a = (total/500)/*100;
     printf("Percentage = %f\n\n", a);
 
     if (a>=90)
